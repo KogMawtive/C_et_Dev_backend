@@ -107,5 +107,6 @@ app.delete('/delete-task/:id', (req, res) => {
   }
 
   const deletedTask = tasks.splice(index, 1);
-  res.json(deletedTask[0]); // retourne la tâche supprimée
+  res.json(deletedTask[0]); 
 });
+
